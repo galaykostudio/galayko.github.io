@@ -1,0 +1,865 @@
+
+
+
+#namelable{
+	font-family:BerenisADFProRegular;
+    font-size: 46px;
+    text-align:  center;
+    margin: 30px 0 0px;}
+
+#underlable{
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align:  center;
+    margin: 0px 0 30px;}
+
+
+
+.menu-main {
+  list-style: none;
+  margin: 0px 0 5px;
+  padding: 17px 0 5px;
+  text-align: center;
+  background: white;
+}
+.menu-main li {display: inline-block;}
+.menu-main li:after {
+  content: "|";
+  color: #70706e;
+  display: inline-block;
+  vertical-align:top;
+}
+.menu-main li:last-child:after {content: none;}
+.menu-main a {
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 0px;
+  margin: 0 34px 0 30px;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+}
+.menu-main a, .menu-main a:visited {color: #000000;}
+.menu-main a.current, .menu-main a:hover{color: #5c5c5c;}
+.menu-main a:before,
+.menu-main a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: #5c5c5c;
+  transition: .8s;
+}
+.menu-main a:hover:before, .menu-main .current:before {left: 0;}
+.menu-main a:hover:after, .menu-main .current:after {right: 0;}   
+@media (max-width: 550px) {
+.menu-main {padding-top: 0;}
+.menu-main li {display: block;}
+.menu-main li:after {content: none;}
+.menu-main a {
+  padding: 25px 0 20px; 
+  margin: 0 30px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+#page-menu { 
+  float: right;
+  width : 590px; 
+  height: 120px; 
+  margin : 30px 0 0 0; 
+  padding : 0; 
+}
+ul#menu { 
+  margin : 0; 
+  padding : 0; 
+  overflow: hidden;
+} 
+ul#menu li { 
+  float: left;
+  width : 147px; 
+  height: 121px; 
+  list-style-type : none; 
+  margin : 0; 
+  padding : 0; 
+  display : inline; 
+} 
+
+
+
+
+
+
+.container {
+	 width: 100%;
+	 height: auto;
+        
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     flex-flow: wrap;    
+}
+
+.box {
+    margin:0px;
+	padding-top: 5px;
+	box-sizing: border-box;}
+
+figcaption { 
+    text-align: center;}
+
+.center-img {
+  height: 424px;
+  display: block;
+  margin: 0 auto;
+  padding: 2px;
+  }
+
+
+
+
+.sign {
+  padding: 0;
+  text-decoration: none;
+  color: black;
+  font-family: Helvetica;
+  letter-spacing: 1px;
+  margin:  34px 0 0px;
+  font-size: 17px;
+
+  }
+
+
+
+hr.line1 {
+    color: red;
+    border: 0;
+    height: 1px;
+     background: #D8D8D8;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+  hr.line2 {
+    color: red;
+    border: 0;
+    height: 4px;
+    background: #000000;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+
+/*----------------------------ПОДВАЛ САЙТА-----------------------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+footer {
+	text-align: center;
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+main{
+	min-height: calc(100vh - 192px - 58px - 30px);
+}
+
+/*----------------------------ПОДВАЛ САЙТА-----------------------------*/
+
+/*-------------------------------------PRICE------------------------------ */
+
+#dos{
+	padding-top: 1%;
+	padding-bottom: 1%;
+	font-family:Fira Sans;
+    font-weight: 400;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+}
+
+#lableusl{
+    text-align:  center;
+    padding-top: 30px;
+    font-size: 29px;
+}
+
+#r1 {
+	padding-left: 7%;
+	font-size: 20px;
+}
+
+.bblock {
+	display: inline-block;
+     line-height: 120px;
+     font-size: 35px;
+     background: #d8d8d8;
+     margin-top: 60px;
+     width: 320px; 
+     margin-right: 10px;
+     text-align: center; 
+     
+    }
+
+.bblockobertka {
+	text-align: center;
+	background-color: red;
+
+	
+}
+
+#r1 {
+	padding-top: 3.5%;
+    padding-left: 7.7%;
+
+
+}
+
+#r1 li{
+	font-size: 20px;
+	font-family:Fira Sans;
+	font-weight: lighter;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+ 
+.wrapper {	
+  margin-left: 7%;
+  margin-right: 7%;	
+  display: flex;
+  justify-content: space-between;
+}
+ 
+.item {
+  flex-basis: 23%;
+  margin: 0px 10px 10px 10px;
+}
+ 
+.title {
+  font-family:Fira Sans;
+  font-weight: 400;
+  font-size: 25px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+ 
+.content {
+	line-height: 1.5;
+  display: flex;
+ 
+  flex-direction: column;
+  height: 93%;
+  padding:
+
+}
+ 
+.text {
+  flex: 1 0 auto;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family:Fira Sans;
+}
+
+
+#paketusl {
+	padding-top: 1%;
+	font-family:Fira Sans;
+    font-size: 29px;
+	text-align: center;
+}
+
+#hr2 {
+
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    margin-bottom: 30px;
+}
+
+
+/*-------------------------------------PRICE------------------------------ */
+
+/*-------------------------------------CONTACTS------------------------------ */
+
+.contacts {
+	 width: 100%;
+	 height: auto;   
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     flex-flow: wrap; 
+    padding-right: 7%;
+    padding-left: 7%;
+}
+
+.insidecont {
+	margin:0px;
+	padding-top: 50px;
+	margin-right: 50px;
+	box-sizing: border-box;
+	max-width: 500px;	
+ }
+
+ #r2 {
+ 	font-size: 20px;
+	font-family: Fira Sans;
+	font-weight: lighter;
+ }
+
+#columnthree{
+	display: flex;
+align-items: flex-end;
+}
+
+#picauthor{
+	width: 300px;
+}
+/*-------------------------------------CONTACTS------------------------------ */
+
+/*-------------------------------------ARTICLES------------------------------ */
+
+
+#articlepictures{
+	height: 400px;
+}
+figcaption {
+	font-family: Fira Sans;
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+.sign2{
+	text-decoration: none;
+	color: black;
+}
+
+/*-------------------------------------ARTICLES------------------------------ */
+
+#lablearticles{
+	text-align:  center;
+	font-family:Fira Sans;
+    font-weight: 400;
+    padding-top: 30px;
+
+    font-size: 30px;
+}
+
+#textarticle{
+
+	font-size: 20px;
+	font-family: Fira Sans;
+	font-weight: lighter;
+	margin-bottom: 40px;
+}
+
+#w1 {
+	font-family: Playfair Display;
+}
+
+.articlestitl {
+	font-weight: 400;
+}
+
+/*------------------------------------------------price2------------------------------------*/
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+figure {
+  margin: 10px;
+  width: 400px;
+  height: 300px;
+  color: black;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+figure:before {
+  content: '';
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  bottom: 5%;
+  left: 5%;
+  border-top: solid 2px;
+  border-bottom: solid 2px;
+  transition: 0.2s;
+  transform: scaleX(0);
+}
+
+
+figure:after {
+  content: '';
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  bottom: 5%;
+  left: 5%;
+  border-left: solid 2px;
+  border-right: solid 2px;
+  transition: 0.2s;
+  transform: scaleY(0);
+}
+
+figure:hover:before, 
+figure:hover:after{
+  transform: scale(1);
+}
+
+figure:hover h2, 
+figure:hover p {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+
+#r3 {
+	padding-top: 1.5%;
+	padding-left: 7%;
+	font-size: 20px;
+	padding-left: 7.7%;
+}
+
+#r3 li{
+	font-size: 20px;
+	font-family:Fira Sans;
+	font-weight: lighter;
+}
+
+
+
+
+/*{
+	margin: 0;
+	padding: 0;
+}
+
+#mainmenuul{
+	margin: 100px;
+	width: 100%;
+	background: #666;
+	display: table;
+}
+
+#mainmenuul li{
+
+	justify-content: center;
+	display: block;
+	float: left;
+	position: relative;
+}
+
+
+
+#mainmenuul li a{
+	display: block;
+	padding: 0 20px;
+	height: 50px;
+	text-align: center;
+	font-family: sans-serif;
+	line-height: 49px;
+	color: #fff;
+	border-right: 1px solid #555;
+	text-decoration: none;
+	transition: .5s;
+}
+
+
+
+
+
+#mainmenuul li:hover a{
+	background: #aaa;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .3) insert;
+}
+
+
+
+
+#menu li a:hover{
+	display: block;
+}
+
+#mainmenuul li:hover > ul{
+	visibility: visible;
+	opacity: 1;
+	z-index: 1;
+}
+
+@media screen and (max-width: 580px){
+	
+
+	#mainmenuul li,
+	#mainmenuul li a{
+		width: 100%;
+		border: none;
+		padding-right: 0;
+	}
+
+	#mainmenuul li{
+		border-bottom: 1px solid #555;
+	}
+
+
+
+	#mainmenuul{
+		width: 100%;
+		overflow: hidden;
+	}
+}
+
+*/
+
+
+
+/*nav {
+  width:1280px;
+  margin: 0 auto;
+
+}
+
+nav:before{
+  content:''; 
+  display:block;
+  height:50px;
+  width:100%;
+  background:#000;
+  position:absolute;
+  left:0;
+  z-index:-1;
+}
+
+ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+  height:50px;
+  justify-content: space-between;
+}
+
+ul li{
+  float:left;
+}
+
+ul li a{
+  color:#fff;
+  display:block;
+  height:50px;
+  padding:0 30px;
+  text-transform:uppercase;
+  text-decoration:none;
+  line-height:50px;
+}
+
+ul li a:hover{
+  background:#d34d43;
+}*/
+
+
+
+
+
+
+
+
+	@font-face {
+			font-family: "BerenisADFProRegular";
+			src: url("../fonts/BerenisADFProRegular/BerenisADFProRegular.eot");
+			src: url("../fonts/BerenisADFProRegular/BerenisADFProRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/BerenisADFProRegular/BerenisADFProRegular.woff") format("woff"),
+			url("../fonts/BerenisADFProRegular/BerenisADFProRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "BerenisADFProBold";
+			src: url("../fonts/BerenisADFProBold/BerenisADFProBold.eot");
+			src: url("../fonts/BerenisADFProBold/BerenisADFProBold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/BerenisADFProBold/BerenisADFProBold.woff") format("woff"),
+			url("../fonts/BerenisADFProBold/BerenisADFProBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "BerenisADFProItalic";
+			src: url("../fonts/BerenisADFProItalic/BerenisADFProItalic.eot");
+			src: url("../fonts/BerenisADFProItalic/BerenisADFProItalic.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/BerenisADFProItalic/BerenisADFProItalic.woff") format("woff"),
+			url("../fonts/BerenisADFProItalic/BerenisADFProItalic.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "BerenisADFProBoldItalic";
+			src: url("../fonts/BerenisADFProBoldItalic/BerenisADFProBoldItalic.eot");
+			src: url("../fonts/BerenisADFProBoldItalic/BerenisADFProBoldItalic.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/BerenisADFProBoldItalic/BerenisADFProBoldItalic.woff") format("woff"),
+			url("../fonts/BerenisADFProBoldItalic/BerenisADFProBoldItalic.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	/*---------------FONT---------------*/
+
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/FiraSans/FiraSans-Italic.eot');
+	src: local('Fira Sans Italic'), local('FiraSans-Italic'),
+		url('../fonts/FiraSans/FiraSans-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FiraSans/FiraSans-Italic.woff') format('woff'),
+		url('../fonts/FiraSans/FiraSans-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/FiraSans/FiraSans-Bold.eot');
+	src: local('Fira Sans Bold'), local('FiraSans-Bold'),
+		url('../fonts/FiraSans/FiraSans-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FiraSans/FiraSans-Bold.woff') format('woff'),
+		url('../fonts/FiraSans/FiraSans-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/FiraSans/FiraSansMedium-Italic.eot');
+	src: local('Fira Sans Medium Italic'), local('FiraSansMedium-Italic'),
+		url('../fonts/FiraSans/FiraSansMedium-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FiraSans/FiraSansMedium-Italic.woff') format('woff'),
+		url('../fonts/FiraSans/FiraSansMedium-Italic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/FiraSans/FiraSansLight.eot');
+	src: local('Fira Sans Light'), local('FiraSansLight'),
+		url('../fonts/FiraSans/FiraSansLight.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FiraSans/FiraSansLight.woff') format('woff'),
+		url('../fonts/FiraSans/FiraSansLight.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/FiraSans/FiraSans.eot');
+	src: local('Fira Sans'), local('FiraSans'),
+		url('../fonts/FiraSans/FiraSans.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FiraSans/FiraSans.woff') format('woff'),
+		url('../fonts/FiraSans/FiraSans.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/FiraSans/FiraSansMedium.eot');
+	src: local('Fira Sans Medium'), local('FiraSansMedium'),
+		url('../fonts/FiraSans/FiraSansMedium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FiraSans/FiraSansMedium.woff') format('woff'),
+		url('../fonts/FiraSans/FiraSansMedium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/FiraSans/FiraSansLight-Italic.eot');
+	src: local('Fira Sans Light Italic'), local('FiraSansLight-Italic'),
+		url('../fonts/FiraSans/FiraSansLight-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FiraSans/FiraSansLight-Italic.woff') format('woff'),
+		url('../fonts/FiraSans/FiraSansLight-Italic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/FiraSans/FiraSans-BoldItalic.eot');
+	src: local('Fira Sans Bold Italic'), local('FiraSans-BoldItalic'),
+		url('../fonts/FiraSans/FiraSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FiraSans/FiraSans-BoldItalic.woff') format('woff'),
+		url('../fonts/FiraSans/FiraSans-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Playfair Display SC';
+	src: url('../fonts/PlayfairDisplay/PlayfairDisplaySC-BlackItalic.eot');
+	src: local('Playfair Display SC Black Italic'), local('PlayfairDisplaySC-BlackItalic'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplaySC-BlackItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplaySC-BlackItalic.woff') format('woff'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplaySC-BlackItalic.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Playfair Display SC';
+	src: url('../fonts/PlayfairDisplay/PlayfairDisplaySC-BoldItalic.eot');
+	src: local('Playfair Display SC Bold Italic'), local('PlayfairDisplaySC-BoldItalic'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplaySC-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplaySC-BoldItalic.woff') format('woff'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplaySC-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Playfair Display SC';
+	src: url('../fonts/PlayfairDisplay/PlayfairDisplaySC-Italic.eot');
+	src: local('Playfair Display SC Italic'), local('PlayfairDisplaySC-Italic'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplaySC-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplaySC-Italic.woff') format('woff'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplaySC-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Playfair Display';
+	src: url('../fonts/PlayfairDisplay/PlayfairDisplay-BoldItalic.eot');
+	src: local('Playfair Display-Bold Italic'), local('PlayfairDisplay-BoldItalic'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplay-BoldItalic.woff') format('woff'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplay-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Playfair Display';
+	src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Black.eot');
+	src: local('Playfair Display Black'), local('PlayfairDisplay-Black'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplay-Black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplay-Black.woff') format('woff'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplay-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Playfair Display';
+	src: url('../fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.eot');
+	src: local('Playfair Display-Black Italic'), local('PlayfairDisplay-BlackItalic'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.woff') format('woff'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Playfair Display';
+	src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular.eot');
+	src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular.woff') format('woff'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Playfair Display';
+	src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold.eot');
+	src: local('Playfair Display Bold'), local('PlayfairDisplay-Bold'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold.woff') format('woff'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Playfair Display SC';
+	src: url('../fonts/PlayfairDisplay/PlayfairDisplaySC-Black.eot');
+	src: local('Playfair Display SC Black'), local('PlayfairDisplaySC-Black'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplaySC-Black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplaySC-Black.woff') format('woff'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplaySC-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Playfair Display';
+	src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Italic.eot');
+	src: local('Playfair Display-Italic'), local('PlayfairDisplay-Italic'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplay-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplay-Italic.woff') format('woff'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplay-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Playfair Display SC';
+	src: url('../fonts/PlayfairDisplay/PlayfairDisplaySC-Bold.eot');
+	src: local('Playfair Display SC Bold'), local('PlayfairDisplaySC-Bold'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplaySC-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplaySC-Bold.woff') format('woff'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplaySC-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Playfair Display SC';
+	src: url('../fonts/PlayfairDisplay/PlayfairDisplaySC-Regular.eot');
+	src: local('Playfair Display SC Regular'), local('PlayfairDisplaySC-Regular'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplaySC-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplaySC-Regular.woff') format('woff'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplaySC-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

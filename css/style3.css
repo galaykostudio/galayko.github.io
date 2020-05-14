@@ -1,0 +1,540 @@
+.picture {
+	height: 700px;
+	margin: 20px;
+}
+
+html, body{
+
+  text-align: center;
+}
+.sliderclass{
+
+  width:1000px;
+  margin:20px auto;
+  padding:20px;
+  color:white;
+  
+  img{display: block;margin:auto;}
+  
+}
+
+.picture {
+	display: block;
+	margin: auto;
+}
+
+.slide {
+	margin: 3px;
+}
+
+.picture2 {
+	height: 40px;
+	display: inline-block;
+	margin
+}
+
+#namelable{
+	font-family:BerenisADFProRegular;
+    font-size: 46px;
+    text-align:  center;
+    margin: 30px 0 0px;}
+
+#underlable{
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align:  center;
+    margin: 0px 0 17px;}
+
+
+
+.menu-main {
+  list-style: none;
+  margin: 10px 0 5px;
+  padding: 5px 0 5px;
+  text-align: center;
+  background: white;
+}
+.menu-main li {display: inline-block;}
+.menu-main li:after {
+  content: "|";
+  color: #70706e;
+  display: inline-block;
+  vertical-align:top;
+}
+.menu-main li:last-child:after {content: none;}
+.menu-main a {
+  text-decoration: none;
+  	font-family:Fira Sans;
+    
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 3px;
+  margin: 0 34px 0 30px;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+}
+.menu-main a, .menu-main a:visited {color: #000000;}
+.menu-main a.current, .menu-main a:hover{color: #5c5c5c;}
+.menu-main a:before,
+.menu-main a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: #5c5c5c;
+  transition: .8s;
+}
+.menu-main a:hover:before, .menu-main .current:before {left: 0;}
+.menu-main a:hover:after, .menu-main .current:after {right: 0;}   
+@media (max-width: 550px) {
+.menu-main {padding-top: 0;}
+.menu-main li {display: block;}
+.menu-main li:after {content: none;}
+.menu-main a {
+  padding: 25px 0 20px; 
+  margin: 0 30px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+#page-menu { 
+  float: right;
+  width : 590px; 
+  height: 120px; 
+  margin : 30px 0 0 0; 
+  padding : 0; 
+}
+ul#menu { 
+  margin : 0; 
+  padding : 0; 
+  overflow: hidden;
+} 
+ul#menu li { 
+  float: left;
+  width : 147px; 
+  height: 121px; 
+  list-style-type : none; 
+  margin : 0; 
+  padding : 0; 
+  display : inline; 
+} 
+
+
+
+
+
+
+.container {
+	 width: 100%;
+	 height: auto;
+        
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     flex-flow: wrap;    
+}
+
+.box {
+    margin:0px;
+	padding-top: 5px;
+	box-sizing: border-box;}
+
+figcaption { 
+    text-align: center;}
+
+.center-img {
+  height: 427px;
+  display: block;
+  margin: 0 auto;
+  padding: 2px;
+  }
+
+
+
+
+.sign {
+  padding: 0;
+  text-decoration: none;
+  color: black;
+  font-family: Helvetica;
+  letter-spacing: 1px;
+  margin:  34px 0 0px;
+  font-size: 17px;
+
+  }
+
+
+
+hr.line1 {
+    color: red;
+    border: 0;
+    height: 1px;
+     background: #D8D8D8;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+  hr.line2 {
+    color: red;
+    border: 0;
+    height: 4px;
+    background: #000000;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+
+/*----------------------------ПОДВАЛ САЙТА-----------------------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+footer {
+	text-align: center;
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+main{
+	min-height: calc(100vh - 192px - 84px);
+}
+
+/*----------------------------ПОДВАЛ САЙТА-----------------------------*/
+
+/*-------------------------------------PRICE------------------------------ */
+
+#dos{
+	padding-top: 1%;
+	padding-bottom: 1%;
+	font-family:Fira Sans;
+    font-weight: 400;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+}
+
+#lableusl{
+    text-align:  center;
+    padding-top: 30px;
+    font-size: 29px;
+}
+
+#r1 {
+	padding-left: 7%;
+	font-size: 20px;
+}
+
+.bblock {
+	display: inline-block;
+     line-height: 120px;
+     font-size: 35px;
+     background: #d8d7d8;
+     margin-top: 60px;
+     width: 320px; 
+     margin-right: 10px;
+     text-align: center; 
+     
+    }
+
+.bblockobertka {
+	text-align: center;
+	background-color: red;
+
+	
+}
+
+#r1 {
+	padding-top: 3.5%;
+    padding-left: 7.7%;
+
+
+}
+
+#r1 li{
+	font-size: 20px;
+	font-family:Fira Sans;
+	font-weight: lighter;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+ 
+.wrapper {	
+  margin-left: 7%;
+  margin-right: 7%;	
+  display: flex;
+  justify-content: space-between;
+}
+ 
+.item {
+  flex-basis: 23%;
+  margin: 0px 10px 10px 10px;
+}
+ 
+.title {
+  font-family:Fira Sans;
+  font-weight: 400;
+  font-size: 25px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+ 
+.content {
+	line-height: 1.5;
+  display: flex;
+ 
+  flex-direction: column;
+  height: 93%;
+  padding:
+
+}
+ 
+.text {
+  flex: 1 0 auto;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family:Fira Sans;
+}
+
+
+#paketusl {
+	padding-top: 1%;
+	font-family:Fira Sans;
+    font-size: 29px;
+	text-align: center;
+}
+
+#hr2 {
+
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    margin-bottom: 30px;
+}
+
+
+/*-------------------------------------PRICE------------------------------ */
+
+/*-------------------------------------CONTACTS------------------------------ */
+
+.contacts {
+	 width: 100%;
+	 height: auto;   
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     flex-flow: wrap; 
+    padding-right: 7%;
+    padding-left: 7%;
+}
+
+.insidecont {
+	margin:0px;
+	padding-top: 50px;
+	margin-right: 50px;
+	box-sizing: border-box;
+	max-width: 500px;	
+ }
+
+ #r2 {
+ 	text-indent: 20px;
+ 	line-height: 1.6;
+ 	font-size: 20px;
+	font-family: Fira Sans;
+	font-weight: lighter;
+ }
+
+  #r4 {
+ 	line-height: 1.6;
+ 	font-size: 20px;
+	font-family: Fira Sans;
+	font-weight: lighter;
+ }
+
+#columnthree{
+	display: flex;
+align-items: flex-end;
+}
+
+#picauthor{
+	width: 300px;
+}
+/*-------------------------------------CONTACTS------------------------------ */
+
+/*-------------------------------------ARTICLES------------------------------ */
+
+
+#articlepictures{
+	height: 400px;
+}
+figcaption {
+	font-family: Fira Sans;
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+.sign2{
+	text-decoration: none;
+	color: black;
+}
+
+/*-------------------------------------ARTICLES------------------------------ */
+
+#lablearticles{
+	text-align:  center;
+	font-family:Fira Sans;
+    font-weight: 400;
+    padding-top: 30px;
+
+    font-size: 30px;
+}
+
+#textarticle{
+    line-height: 1.6;
+ 	text-indent: 20px;
+	font-size: 20px;
+	font-family: Fira Sans;
+	font-weight: lighter;
+	margin-bottom: 40px;
+}
+
+#w1 {
+	font-family: Playfair Display;
+}
+
+.articlestitl {
+	font-weight: 400;
+}
+
+/*------------------------------------------------price2------------------------------------*/
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+figure {
+  margin: 3px;
+  width: 407px;
+  height: 300px;
+  background-color: #d8d8d8;
+  color: black;
+  
+  display: inline-flex;
+  line-height: 1.6;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+figure:before {
+  content: '';
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  bottom: 5%;
+  left: 5%;
+  border-top: solid 2px;
+  border-bottom: solid 2px;
+  transition: 0.2s;
+  transform: scaleX(0);
+}
+
+
+figure:after {
+  content: '';
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  bottom: 5%;
+  left: 5%;
+  border-left: solid 2px;
+  border-right: solid 2px;
+  transition: 0.2s;
+  transform: scaleY(0);
+}
+
+figure:hover:before, 
+figure:hover:after{
+  transform: scale(1);
+}
+
+figure:hover h2, 
+figure:hover p {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+
+#r3 {
+	padding-top: 1.5%;
+	padding-left: 7%;
+	font-size: 20px;
+	padding-left: 7.7%;
+}
+
+#r3 li{
+	line-height: 1.6;
+	font-size: 20px;
+	font-family:Fira Sans;
+	font-weight: lighter;
+}
+
+
+
+/*------------------slider------------------------*/
+
+
+.picture {
+	height: 700px;
+	margin: 20px;
+}
+
+.sl {
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+#shadow {
+
+
+}
+
+main {
+	max-width: 1700px
+	margin: 20px auto;
+
+}
